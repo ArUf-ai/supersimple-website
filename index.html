@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="styles.css">
+<script type="text/javascript"
+src="https://cdn.emailjs.com/dist/email.min.js">
+</script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("4V3ryGt8jT0fdP_U2")
+      })();
+</script>
+<script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Ghure Dekhi.com</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                
+            </ul>
+        </header>
+    </nav>
+
+<section class="booking">
+    <h2>Book Your Trip</h2>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdZm8TmLnHHdc6ezijIBvdP_6G2SxeMlO8GqxAaz0BQSnc0yw/viewform?embedded=true" width="640" height="959" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</section>
+
+    <section class="destinations">
+        <h2>Destinations</h2>
+        <div class="destination-cards">
+            <div class="card">
+                <img src="images/dhanmondi.jpg" alt="Dhanmondi">
+                <h3>Dhanmondi</h3>
+                <p>The Area Of Mighty Lake.</p>
+                <a href="Dhanmmodi.html">Go to details </a>
+            </div>
+            <div class="card">
+                <img src="images/gulshan.jpg" alt="Gulshan">
+                <h3>Gulshan</h3>
+                <p>The Dark Area.</p>
+            </div>
+            <div class="card">
+                <img src="images/p.jpg" alt="Uttara">
+                <h3>Uttara</h3>
+                <p>The Posh Village.</p>
+            </div>
+            <div class="card">
+                <img src="images/a.jpg" alt="Banani">
+                <h3>Banani</h3>
+                <p>.</p>
+            </div>
+        </div>
+    </section>
+<section class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="submit_form.php" method="POST">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" onclick="sendMail()">Send Message</button>
+    </form>
+</section>
+<section class="social-media">
+    <h2>Follow Us</h2>
+    <ul>
+        <li><a href="https://www.facebook.com/yourpage" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a></li>
+        <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
+    </ul>
+</section>
+
+    <footer>
+    <br> Low Costing Travel Agency</br>    <p>&copy; Ghure Dekhi.com <br> 2024 All rights reserved.</p> </br>
+<div class="contact-info">
+        <p><strong>Contact Us</strong></p>
+        <p>Call us at: <a href="tel:+880 1887 955285">+880 1887 955285</a></p>
+        <p>Email: hyptonuscrawl@gmail.com</p>
+        <p>Address:Ask Your Mommy</p>
+
+    </div>
+    </footer>
+</body>
+</html>

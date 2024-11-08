@@ -1,0 +1,515 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #0044cc;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+nav .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.cta-btn {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: #ffd700;
+    color: #333;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #5c5f5d;
+}
+
+/* Destinations Section */
+.destinations {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.destinations h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #0044cc;
+}
+
+.destination-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+
+.card p {
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info strong {
+    font-size: 1.2rem;
+}
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact-form button:hover {
+    background-color: #0033a0;
+}
+.social-media {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.social-media h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0044cc;
+}
+
+.social-media ul li a:hover {
+    color: #ff9900;
+}
+.social-media {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.social-media h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0044cc;
+}
+
+.social-media ul li a:hover {
+    color: #ff9900;
+}
+.social-media {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.social-media h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0044cc;
+}
+
+.social-media ul li a:hover {
+    color: #ff9900;
+}
+.social-media {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.social-media h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0044cc;
+}
+
+.social-media ul li a:hover {
+    color: #ff9900;
+}
+.social-media {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.social-media h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0044cc;
+}
+
+.social-media ul li a:hover {
+    color: #ff9900;
+}
+.social-media {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.social-media h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0044cc;
+}
+
+.social-media ul li a:hover {
+    color: #ff9900;
+}
+.social-media {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.social-media h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0044cc;
+}
+
+.social-media ul li a:hover {
+    color: #ff9900;
+}
+.social-media {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.social-media h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0044cc;
+}
+
+.social-media ul li a:hover {
+    color: #ff9900;
+}
+
+.social-media {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.social-media h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0044cc;
+}
+
+.social-media ul li a:hover {
+    color: #ff9900;
+}
+
+.booking {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 720px;
+    margin: 2rem auto;
+}
+
+.booking h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.booking label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.booking input, .booking select, .booking textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.booking button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.booking button:hover {
+    background-color: #0033a0;
+}
+
+
+ 
+   
